@@ -36,9 +36,9 @@
     text-decoration: underline;
   }
   
-  
+
   /* Small devices (phones, less than 768px) */
-  
+/*   
   @media (max-width: 767.98px) {
   
     .header-conteneur nav ul{
@@ -49,10 +49,10 @@
       font-size: 18px;
     }
   
-  }  
+  }   */
       
   /* Small devices (phones, less than 420px) */
-  
+/*   
   @media (max-width: 420px) {
   
     .header-conteneur nav ul {
@@ -64,4 +64,4 @@
       text-transform: uppercase
     }
     
-  }
+  } */
