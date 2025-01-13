@@ -1,0 +1,20 @@
+{
+  "name": "kasa_app_loc_immo_react",
+  "version": "1.0.0",
+  "description": "ReadMe global de présentation",
+  "homepage": "https://github.com/MarieC2023/Kasa_app_loc_immo_React#readme",
+  "bugs": {
+    "url": "https://github.com/MarieC2023/Kasa_app_loc_immo_React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarieC2023/Kasa_app_loc_immo_React.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
