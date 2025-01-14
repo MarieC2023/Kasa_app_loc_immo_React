@@ -1,5 +1,5 @@
 .header {
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 4% 10%;
     box-sizing: border-box;
   }
@@ -10,7 +10,7 @@
     justify-content: space-between;
   }
   
-  .logo {
+  .header-logo {
     width: 20%;
   }
   
@@ -36,32 +36,3 @@
     text-decoration: underline;
   }
   
-
-  /* Small devices (phones, less than 768px) */
-/*   
-  @media (max-width: 767.98px) {
-  
-    .header-conteneur nav ul{
-      gap:37px;
-    }
-    
-    .header-conteneur nav ul li a  {
-      font-size: 18px;
-    }
-  
-  }   */
-      
-  /* Small devices (phones, less than 420px) */
-/*   
-  @media (max-width: 420px) {
-  
-    .header-conteneur nav ul {
-      gap:20px;
-    }
-  
-    .header-conteneur nav ul li a {
-      font-size: 12px;
-      text-transform: uppercase
-    }
-    
-  } */

@@ -1,7 +1,7 @@
 import './App.css'
 
 import { BrowserRouter } from 'react-router-dom'
-import PublicRouter from '@ /pages/PublicRouter'
+import PublicRouter from '@/pages/PublicRouter'
 
 
 
