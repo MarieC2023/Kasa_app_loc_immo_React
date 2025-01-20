@@ -1,9 +1,10 @@
-
+import Banner from "@/components/Home/Banner";
+import aboutImage from "@/assets/aboutBanner.jpg"
 
 const About = () => {
     return (
         <div className="about">
-           A propos 
+            <Banner title="" imageUrl={aboutImage} imageTitle="rivière traversant les montages "/>
         </div>
     );
 };
