@@ -1,4 +1,4 @@
-import Banner from "@/components/Home/Banner";
+import Banner from "@/components/Banner/Banner";
 import aboutImage from "@/assets/aboutBanner.jpg"
 
 const About = () => {

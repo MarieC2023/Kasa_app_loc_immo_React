@@ -1,5 +1,6 @@
-import Banner from "@/components/Home/Banner";
+import Banner from "@/components/Banner/Banner";
 import homeImage from "@/assets/homeBanner.jpg"
+import "./home.css"
 
 
 const Home = () => {
