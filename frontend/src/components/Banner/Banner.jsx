@@ -3,10 +3,10 @@ import "./banner.css"
 
 const Banner = ({ title, imageUrl, imageTitle }) => {
     return (
-        <div className="banner">
+        <section className="banner-content">
             <img className="banner-img" src={imageUrl} alt={imageTitle} />
             <h1 className="banner-title">{title}</h1>
-        </div>
+        </section>
     );
 };
 
