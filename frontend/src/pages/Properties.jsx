@@ -1,6 +1,6 @@
 
 
-const Card = () => {
+const Properties = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Card = () => {
     );
 };
 
-export default Card;
+export default Properties;
