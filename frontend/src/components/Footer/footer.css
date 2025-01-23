@@ -1,11 +1,15 @@
-footer {
-    margin: 0;
-    box-sizing: border-box;
-    background-color: black;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    bottom: 0;
+.footer-content {
+     
+        width: 100vw; 
+        position: relative; 
+        left: 50%; 
+        right: 50%; 
+        margin-left: -50vw; 
+        margin-right: -50vw; 
+        background-color: black; 
+        text-align: center;
+        padding: 20px 0;
+
 }
 
 .footer-logo {
