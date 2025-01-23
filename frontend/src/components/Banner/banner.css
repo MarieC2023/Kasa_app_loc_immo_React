@@ -11,6 +11,7 @@
     object-fit: cover; 
     max-height: 223px; 
     filter: brightness(40%);
+    border-radius: 30px; 
   }
   
   .banner-title {

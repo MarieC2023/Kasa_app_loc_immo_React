@@ -1,12 +1,18 @@
 import Banner from "@/components/Banner/Banner";
 import aboutImage from "@/assets/aboutBanner.jpg"
+import CollapseSection from "../components/Collapse/CollapseSection";
+
+
+
 
 const About = () => {
     return (
-        <div className="about">
-            <Banner imageUrl={aboutImage} imageTitle="rivière traversant les montages "/>
-        </div>
+        <main>
+            <Banner imageUrl={aboutImage} imageTitle="Rivière traversant les montages " />
+            <CollapseSection/>
+        </main>
     );
 };
 
 export default About;
+

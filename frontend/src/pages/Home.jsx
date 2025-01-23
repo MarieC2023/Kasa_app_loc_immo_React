@@ -10,7 +10,6 @@ const Home = () => {
             <Banner title="Chez vous, partout et ailleurs" imageUrl={homeImage} imageTitle="Océan et falaise arboré "/>
             <Gallery/>
             
-            
         </main>
     );
 };
