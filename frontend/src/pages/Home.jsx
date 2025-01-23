@@ -8,9 +8,8 @@ const Home = () => {
     return (
         <main className="home">
             <Banner title="Chez vous, partout et ailleurs" imageUrl={homeImage} imageTitle="Océan et falaise arboré "/>
-            <div className="card-content">
-                <Gallery/>
-            </div>
+            <Gallery/>
+            
             
         </main>
     );

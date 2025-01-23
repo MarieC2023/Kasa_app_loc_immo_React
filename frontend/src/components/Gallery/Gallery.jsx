@@ -24,7 +24,7 @@ const Gallery = () => {
     }
 
     return (
-        <div className="gallery-container">
+        <div className="gallery-content">
             {properties.map((dataAllProperties) => (
                 <Card
                     key={dataAllProperties.id}

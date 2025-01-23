@@ -1,8 +1,5 @@
-.card-content{
-    position: relative;
-    margin: 4% 10%; 
-    border-radius: 30px; 
-    overflow: hidden; 
-    background-color: #F6F6F6;
-    height: 829px;
+.home {
+    max-width: 1440px;
+    margin: 0 auto;
+
 }

@@ -8,7 +8,7 @@ const Card = ({id, title, cover}) => {
         /**voir quel nom de balise mettre avant push idem div suivante
          * modifier le to = id avec le bon chemin --> route vers la page logement détaillé
         */
-        <div className="card-container">
+        <div className="card-content">
             <Link className="card-link" to={`/properties/${id}`}>
                 <article className="card-article">
                     <h2 className="card-title">{title}</h2>
