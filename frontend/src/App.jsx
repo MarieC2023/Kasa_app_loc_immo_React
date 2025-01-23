@@ -8,7 +8,7 @@ import PublicRouter from '@/pages/PublicRouter'
 function App() {
 
   return (
-    <div className='App'>
+    <div className='app'>
       <BrowserRouter>
         <PublicRouter />
       </BrowserRouter>
