@@ -14,7 +14,7 @@ let getAllProperties = async () => {
     }
 }
 
-let getPropertie = async (id) => {
+let getProperty = async (id) => {
     try {
         const response = await fetch(baseURL + `/properties/${id}`);
         if (!response.ok) 
@@ -29,5 +29,5 @@ let getPropertie = async (id) => {
 }
 export const callerService = {
     getAllProperties,
-    getPropertie,
+    getProperty,
 }
