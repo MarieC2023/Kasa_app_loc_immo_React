@@ -1,14 +1,14 @@
 .footer-content {
-     
-        width: 100vw; 
-        position: relative; 
-        left: 50%; 
-        right: 50%; 
-        margin-left: -50vw; 
-        margin-right: -50vw; 
-        background-color: black; 
-        text-align: center;
-        padding: 20px 0;
+
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
 
 }
 
@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-weight: 500; 
+    font-weight: 500;
     line-height: 34.22px;
     font-size: 24px;
 }

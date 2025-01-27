@@ -1,0 +1,9 @@
+.rating {
+  display: flex;
+  gap: 5px;
+}
+
+.rating img {
+  width: 36px;
+  height: auto;
+}

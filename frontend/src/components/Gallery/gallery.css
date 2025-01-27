@@ -1,13 +1,13 @@
 .gallery-content {
     background-color: #F6F6F6;
     border-radius: 25px;
-    padding: 40px; /* Plus d'espace intérieur pour mieux aérer la galerie */
+    padding: 40px; 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grille fluide avec colonnes adaptées */
-    gap: 30px; /* Uniforme entre chaque carte */
-    max-width: 1440px; /* Largeur maximale pour limiter la galerie */
-    margin: 4% 10%; /* Centré horizontalement */
-    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; 
+    max-width: 1440px; 
+    margin: 4% 10%; 
+    box-sizing: border-box; 
 }
 
 .gallery-loading {
@@ -17,5 +17,5 @@
     color: #FF6060;
     font-size: 18px;
     font-weight: 700;
-    height: 200px; /* Hauteur fixe pour la zone de chargement */
+    height: 200px; 
 }

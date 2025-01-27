@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-main {
+    font-size: 1.875rem;
+    color: #ff6060;
+    line-height: 2rem;
+}
+
+.title-subtitle {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
