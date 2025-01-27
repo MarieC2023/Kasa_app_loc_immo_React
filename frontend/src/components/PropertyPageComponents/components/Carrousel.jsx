@@ -39,8 +39,8 @@ const Carrousel = ({ pictures }) => {
             <i className="fa-solid fa-chevron-right"></i>
           </button>
           <p className="carrousel-counter">
-            <span className="active-view">{currentIndex + 1}</span>/
-            <span className="total-view">{totalPictures}</span>
+            <span>{currentIndex + 1}</span>/
+            <span>{totalPictures}</span>
           </p>
         </>
       )}

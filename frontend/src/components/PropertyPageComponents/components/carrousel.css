@@ -7,29 +7,37 @@
   position: relative;
 }
 
-.carrousel__img {
+.carrousel-img {
   object-fit: cover;
   object-position: center;
   width: 100%;
 }
 
-.carrousel__arrow {
-  cursor: pointer;
+.carrousel-arrow {
   position: absolute;
   top: 50%;
-  height: 60px;
-  transform: translate(0, -50%);
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  transform: translateY(-50%);
 }
 
 .carrousel .left {
-  left: 20px;
+  left: 23px;
 }
 
 .carrousel .right {
-  right: 20px;
+  right: 23px;
 }
 
-.carrousel__counter {
+.carrousel-counter {
   color: #ffffff;
   position: absolute;
   bottom: 30px;
