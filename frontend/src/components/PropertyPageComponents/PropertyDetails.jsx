@@ -5,6 +5,8 @@ import Tags from "./components/Tags";
 import Rating from "./components/Rating";
 import Collapse from "@/components/Collapse/Collapse";
 
+import './propertyDetails.css';
+
 const PropertyDetails = ({
   title,
   location,
@@ -16,17 +18,19 @@ const PropertyDetails = ({
   equipments,
 }) => {
   return (
-    <div className="sheet">
-      <div className="sheet__top">
+    <>
+    <div className="details">
+      <div className="details-top">
         <Title title={title} location={location} />
         <Tags tags={tags} />
       </div>
-      <div className="sheet__middle">
+      <div className="details-middle">
         <Host name={name} picture={picture} />
         <Rating stars={rating} />
       </div>
-      <div className="sheet__bottom">
-        <div className="sheet-collapse">
+    </div>  
+    <div className="details-bottom">
+        <div className="details-collapse">
           <Collapse key="Description" title="Description">
             <p>{description}</p>
           </Collapse>
@@ -39,7 +43,7 @@ const PropertyDetails = ({
           </Collapse>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

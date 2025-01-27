@@ -1,0 +1,33 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.details-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.details-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-collapse {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+

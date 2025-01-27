@@ -1,62 +1,15 @@
-.property-page {
-    padding: 20px;
-  }
-  
-  .property-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .property-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .property-host {
-    display: flex;
+.page-loading{
+  display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-  }
-  
-  .host-picture {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  .property-rating {
-    color: gold;
-    font-size: 20px;
-  }
-  
-  .property-location {
-    font-style: italic;
-    color: gray;
-  }
-  
-  .property-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-  
-  .property-tag {
-    background: lightblue;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 14px;
-  }
-  
-  .property-details {
-    margin-top: 20px;
-  }
-  
-  .star-filled {
-    color: gold;
-  }
-  
-  .star-empty {
-    color: lightgray;
-  }
-  
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 700;
+    height: 200px; 
+}
+
+.main-content {
+  margin: 4% 10%;
+    max-width: 1240px;
+    box-sizing: border-box;
+}

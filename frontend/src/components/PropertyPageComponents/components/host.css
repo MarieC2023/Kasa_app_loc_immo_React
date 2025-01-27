@@ -1,12 +1,12 @@
 .host {
   display: flex;
-  flex-direction: row;
-  justify-content: right;
   align-items: center;
-  gap: 20px;
+  gap: 5%;
+  margin-bottom: 20px;
 }
 
 .host-name {
+  text-align: right;
   width: 100px;
   font-size: 1.125rem;
   color: #ff6060;
@@ -16,4 +16,5 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
+  object-fit: cover;
 }

@@ -11,3 +11,8 @@
 .section-collapse .collapse {
    padding-bottom: 3%; 
 }
+
+.section-collapse p {
+    font-size: 1.125rem;
+    font-weight: 400;
+}

@@ -1,9 +1,22 @@
 .rating {
+  margin: 0;
+  padding: 0;
   display: flex;
-  gap: 5px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.rating img {
+
+.star {
   width: 36px;
   height: auto;
+  font-size: 1.25rem;
+}
+
+.star i{
+  color: #E3E3E3;
+}
+
+.star.active i {
+  color: #FF6060;
 }

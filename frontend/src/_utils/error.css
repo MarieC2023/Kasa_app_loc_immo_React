@@ -11,7 +11,7 @@
     height: 263px;
     width: 100%;
     font-weight: 700;
-    font-size: 288px;
+    font-size: 18rem;
     margin: 0;
 }
 
@@ -19,7 +19,7 @@
     max-width: 872px;
     height: 51px;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: 150px 0;
 }
 
@@ -28,6 +28,6 @@
     height: 26px;
     color: black;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: underline solid;
 }

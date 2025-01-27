@@ -1,12 +1,13 @@
-.title {
+.title-content {
     display: flex;
     flex-direction: column;
 }
 
-.title-main {
-    font-size: 1.875rem;
+.title {
+    font-size: 2.25rem;
     color: #ff6060;
     line-height: 2rem;
+    margin-bottom: 10px;
 }
 
 .title-subtitle {

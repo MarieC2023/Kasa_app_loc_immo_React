@@ -7,11 +7,11 @@ const Rating = ({ stars }) => {
   const starRating = useMemo(() => Math.min(Math.max(stars, 1), 5), [stars]);
 
   return (
-    <div className="evaluation">
+    <div className="rating">
       {Array.from({ length: 5 }, (_, i) => (
         <span
           key={i}
-          className={`etoile ${i < starRating ? 'remplie' : ''}`}
+          className={`star ${i < starRating ? 'active' : ''}`}
         >
           <i className="fa-solid fa-star"></i>
         </span>

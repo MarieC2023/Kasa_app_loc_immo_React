@@ -6,6 +6,8 @@ import { useParams } from "react-router-dom";
 import { callerService } from '@/_services/caller.service';
 import Error from "@/_utils/Error";
 
+import './propertyPage.css';
+
 const PropertyPage = () => {
   const { id } = useParams();
   const [data, setData] = useState(null);
@@ -29,7 +31,7 @@ const PropertyPage = () => {
   }, [initDetails]); 
 
   if (loading) {
-    return <p className="gallery-loading">Chargement...</p>;
+    return <p className="page-loading">Chargement...</p>;
   }
 
   if (!data) {
