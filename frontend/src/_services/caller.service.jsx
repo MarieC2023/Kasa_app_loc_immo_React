@@ -20,8 +20,8 @@ let getProperty = async (id) => {
         if (!response.ok) 
             throw new Error("Erreur lors de la récupérations des logements");
 
-        const dataPropertie = await response.json();
-        return dataPropertie;
+        const dataProperty = await response.json();
+        return dataProperty;
     } catch (err) {
         console.error("Erreur lors de la récupération des logements :", err );
         throw err;
