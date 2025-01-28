@@ -44,3 +44,47 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+
+
+/****** Media Queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+  .carrousel {
+    height: 300px;
+    border-radius: 15px;
+
+  }
+
+  .carrousel-arrow {
+    font-size: 3.375rem;
+  }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .carrousel {
+    height: 255px;
+    border-radius: 15px;
+  }
+
+  .carrousel-arrow {
+    font-size: 1.5rem;
+  }
+
+  .carrousel .left {
+    left: 3px;
+  }
+
+  .carrousel .right {
+    right: 3px;
+  }
+
+  .carrousel-counter {
+    display: none;
+  }
+
+}

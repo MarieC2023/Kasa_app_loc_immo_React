@@ -8,9 +8,9 @@ const Home = () => {
         <main className="home">
             <Banner
                 title={
-                    <>
+                    <p>
                         Chez vous, <span className="second-line">partout et ailleurs</span>
-                    </>
+                    </p>
                 }
                 imageUrl={homeImage}
                 imageTitle="Océan et falaise arborée"

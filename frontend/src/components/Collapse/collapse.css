@@ -5,7 +5,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
 }
 
 .collapse-title {
@@ -70,10 +69,26 @@
         font-size: 1.125rem;
     }
 
-} 
-  
+}
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  
+    .collapse-title {
+        font-size: 0.813rem;
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
 
+    .collapse.open .collapse-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.688rem;
+    }
+
+
+    .collapse-icon {
+        font-size: 1rem;
+
+    }
 }

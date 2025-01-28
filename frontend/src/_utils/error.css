@@ -64,4 +64,30 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .error {
+        margin: 50px;
+    }
+
+    .error_404 {
+        font-size: 6rem;
+        height: auto;
+    }
+
+    .error_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.125rem;
+        margin: 50px 0;
+    }
+
+    .error a {
+        font-size: 0.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -18,3 +18,37 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
+
+/****** Media Queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+  .host-name {
+    font-size: 0.938rem;
+  }
+
+  .host-img {
+    width: 45px;
+    height: 45px;
+  }
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .host {
+    margin-bottom: 0;
+  }
+
+  .host-name {
+    width: auto;
+    font-size: 0.75rem;
+  }
+
+  .host-img {
+    width: 32px;
+    height: 32px;
+  }
+
+}
