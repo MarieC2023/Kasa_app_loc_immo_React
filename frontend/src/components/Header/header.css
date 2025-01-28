@@ -1,10 +1,16 @@
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 1440px;
   margin: 4% 10%;
   box-sizing: border-box;
 }
 
 nav {
+  gap: 68px;
+  position: relative;
+  margin: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
