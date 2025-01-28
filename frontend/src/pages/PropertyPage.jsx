@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import Carrousel from "@/components/PropertyPageComponents/components/Carrousel";
 import PropertyDetails from "@/components/PropertyPageComponents/PropertyDetails";
 import { useState, useEffect, useCallback } from "react";
@@ -9,7 +8,7 @@ import Error from "@/_utils/Error";
 import './propertyPage.css';
 
 const PropertyPage = () => {
-  const { id } = useParams();
+  const { id } = useParams(); 
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -55,8 +54,6 @@ const PropertyPage = () => {
   );
 };
 
-PropertyPage.propTypes = {
-  id: PropTypes.string.isRequired, 
-};
+// Suppression de la validation PropTypes pour `id`
 
 export default PropertyPage;

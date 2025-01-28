@@ -55,7 +55,7 @@ PropertyDetails.propTypes = {
   description: PropTypes.string.isRequired,
   equipments: PropTypes.arrayOf(PropTypes.string).isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-  rating: PropTypes.number.isRequired, // Modifié en PropTypes.number pour correspondre à la notation
+  rating: PropTypes.string.isRequired, 
 };
 
 export default PropertyDetails;
