@@ -21,7 +21,7 @@ const Rating = ({ stars }) => {
 };
 
 Rating.propTypes = {
-  stars: PropTypes.string.isRequired, 
+  stars: PropTypes.string.isRequired,
 };
 
 export default Rating;

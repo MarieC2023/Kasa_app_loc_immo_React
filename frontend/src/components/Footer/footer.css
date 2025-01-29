@@ -47,14 +47,14 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    .footer-content  {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer-p{
+    .footer-p {
         display: flex;
         line-height: 1.5;
         left: 121.09px;

@@ -19,17 +19,17 @@ const PropertyDetails = ({
 }) => {
   return (
     <>
-    <div className="details">
-      <div className="details-top">
-        <Title title={title} location={location} />
-        <Tags tags={tags} />
+      <div className="details">
+        <div className="details-top">
+          <Title title={title} location={location} />
+          <Tags tags={tags} />
+        </div>
+        <div className="details-middle">
+          <Host name={name} picture={picture} />
+          <Rating stars={rating} />
+        </div>
       </div>
-      <div className="details-middle">
-        <Host name={name} picture={picture} />
-        <Rating stars={rating} />
-      </div>
-    </div>  
-    <div className="details-bottom">
+      <div className="details-bottom">
         <div className="details-collapse">
           <Collapse key="Description" title="Description">
             <p>{description}</p>
@@ -43,7 +43,7 @@ const PropertyDetails = ({
           </Collapse>
         </div>
       </div>
-      </>
+    </>
   );
 };
 
@@ -55,7 +55,7 @@ PropertyDetails.propTypes = {
   description: PropTypes.string.isRequired,
   equipments: PropTypes.arrayOf(PropTypes.string).isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-  rating: PropTypes.string.isRequired, 
+  rating: PropTypes.string.isRequired,
 };
 
 export default PropertyDetails;

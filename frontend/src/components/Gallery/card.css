@@ -1,53 +1,53 @@
 .card-content {
-    border-radius: 10px; 
-    overflow: hidden; 
+    border-radius: 10px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    position: relative; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    aspect-ratio: 1 / 1; 
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 1 / 1;
 }
 
 .card-link {
     text-decoration: none;
     color: inherit;
     display: block;
-    height: 100%; 
+    height: 100%;
 }
 
 .card-article {
-    position: relative; 
-    height: 100%; 
+    position: relative;
+    height: 100%;
 }
 
 .card-article::after {
     content: '';
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
     width: 100%;
     height: 340px;
     border-radius: 10px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     z-index: 1;
-} 
+}
 
 .card-img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card-title {
-    position: absolute; 
-    bottom: 15px; 
-    left: 15px; 
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 0; 
-    padding: 5px 10px; 
+    margin: 0;
+    padding: 5px 10px;
     z-index: 2;
 }
 
@@ -61,7 +61,7 @@
     }
 
     .card-article::after {
-        height: 100%; 
+        height: 100%;
     }
 
     .card-title {
@@ -69,17 +69,17 @@
         padding: 5px 8px;
     }
 }
- 
-  
-  /* Small devices (phones, less than 768px) */
-  @media (max-width: 767.98px) {
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
 
     .card-article::after {
-        height: 100%; 
+        height: 100%;
     }
 
     .card-title {
         font-size: 0.938rem;
         padding: 4px 6px;
     }
-  }
+}

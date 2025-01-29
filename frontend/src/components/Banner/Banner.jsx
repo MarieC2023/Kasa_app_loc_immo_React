@@ -11,9 +11,9 @@ const Banner = ({ title, imageUrl, imageTitle }) => {
 };
 
 Banner.propTypes = {
-    title: PropTypes.node,   
-    imageUrl: PropTypes.string.isRequired, 
-    imageTitle: PropTypes.string.isRequired 
-  };
+    title: PropTypes.node,
+    imageUrl: PropTypes.string.isRequired,
+    imageTitle: PropTypes.string.isRequired
+};
 
 export default Banner;

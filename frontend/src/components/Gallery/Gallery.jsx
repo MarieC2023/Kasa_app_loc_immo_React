@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { callerService } from '@/_services/caller.service';
 import Card from './Card';
 import './gallery.css';

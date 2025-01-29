@@ -1,32 +1,32 @@
 .banner-content {
   position: relative;
-  margin: 4% 10%; 
-  max-width: 1440px; 
-  border-radius: 25px; 
+  margin: 4% 10%;
+  max-width: 1440px;
+  border-radius: 25px;
   overflow: hidden;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .banner-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  max-height: 223px; 
+  max-height: 223px;
   filter: brightness(40%);
-  border-radius: 25px; 
+  border-radius: 25px;
 }
 
-.banner-title {
+.banner-title p {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem; 
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   margin: 0;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .banner-title .second-line {
@@ -39,18 +39,18 @@
 @media (max-width: 1024px) {
 
   .banner-content {
-    border-radius: 20px; 
-  }
-
-  .banner-img {
-    max-height: 150px; 
     border-radius: 20px;
   }
 
-  .banner-title {
-    font-size: 2.25rem; 
+  .banner-img {
+    max-height: 150px;
+    border-radius: 20px;
   }
-  
+
+  .banner-title p {
+    font-size: 2rem;
+  }
+
   .banner-title .second-line {
     font-weight: inherit;
   }
@@ -62,28 +62,28 @@
 
   .banner-content {
     margin: 0;
-    padding: 10px 20px; 
-    border-radius: 10px; 
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 
   .banner-img {
     max-height: 111px;
     border-radius: 10px;
   }
-  
-  .banner-title {
-    font-size: 1.5rem; 
+
+  .banner-title p {
+    font-size: 1.5rem;
     line-height: 1.5;
-    max-width: 90%; 
-    position: absolute; 
-    top: 50%; 
-    left: 50px; 
-    transform: translateY(-50%); 
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
     white-space: nowrap;
   }
 
   .banner-title .second-line {
-    display: block; 
+    display: block;
     font-weight: inherit;
   }
 }

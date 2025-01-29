@@ -8,8 +8,8 @@ import CollapseSection from "@/components/Collapse/CollapseSection";
 const About = () => {
     return (
         <main>
-            <Banner imageUrl={aboutImage} imageTitle="Rivière traversant les montages " />
-            <CollapseSection/>
+            <Banner imageUrl={aboutImage} imageTitle="Rivière traversant les montages" />
+            <CollapseSection />
         </main>
     );
 };

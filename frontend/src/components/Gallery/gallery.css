@@ -3,7 +3,7 @@
     border-radius: 25px;
     padding: 40px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     max-width: 1440px;
     margin: 4% 10%;
@@ -18,18 +18,18 @@
     color: #FF6060;
     font-size: 1.125rem;
     font-weight: 700;
-    height: 200px; 
+    height: 200px;
 }
 
 @media (max-width: 1024px) {
     .gallery-content {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 767.98px) {
     .gallery-content {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         margin: 0;
         padding: 20px;
         background-color: white;

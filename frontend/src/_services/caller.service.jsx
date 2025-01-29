@@ -3,13 +3,13 @@ const baseURL = "http://localhost:8080/api"
 let getAllProperties = async () => {
     try {
         const response = await fetch(baseURL + "/properties/");
-        if (!response.ok) 
+        if (!response.ok)
             throw new Error("Erreur lors de la récupérations des logements");
 
         const dataAllProperties = await response.json();
         return dataAllProperties;
     } catch (err) {
-        console.error("Erreur lors de la récupération des logements :", err );
+        console.error("Erreur lors de la récupération des logements :", err);
         throw err;
     }
 }
@@ -17,13 +17,13 @@ let getAllProperties = async () => {
 let getProperty = async (id) => {
     try {
         const response = await fetch(baseURL + `/properties/${id}`);
-        if (!response.ok) 
+        if (!response.ok)
             throw new Error("Erreur lors de la récupérations des logements");
 
         const dataProperty = await response.json();
         return dataProperty;
     } catch (err) {
-        console.error("Erreur lors de la récupération des logements :", err );
+        console.error("Erreur lors de la récupération des logements :", err);
         throw err;
     }
 }

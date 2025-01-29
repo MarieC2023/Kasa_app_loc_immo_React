@@ -1,15 +1,15 @@
-.page-loading{
+.page-loading {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FF6060;
-    font-size: 18px;
-    font-weight: 700;
-    height: 200px; 
+  justify-content: center;
+  align-items: center;
+  color: #FF6060;
+  font-size: 18px;
+  font-weight: 700;
+  height: 200px;
 }
 
 .main-content {
   margin: 4% 10%;
-    max-width: 1240px;
-    box-sizing: border-box;
+  max-width: 1240px;
+  box-sizing: border-box;
 }

@@ -8,7 +8,7 @@ import Error from "@/_utils/Error";
 import './propertyPage.css';
 
 const PropertyPage = () => {
-  const { id } = useParams(); 
+  const { id } = useParams();
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -23,11 +23,11 @@ const PropertyPage = () => {
     } finally {
       setLoading(false);
     }
-  }, [id]); 
+  }, [id]);
 
   useEffect(() => {
     initDetails();
-  }, [initDetails]); 
+  }, [initDetails]);
 
   if (loading) {
     return <p className="page-loading">Chargement...</p>;

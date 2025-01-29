@@ -54,20 +54,21 @@ a {
   .header nav ul li a {
     font-size: 1.125rem;
   }
+
   .header-logo {
     width: 170px;
     height: 46.88px;
-}
+  }
 
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .header{
+  .header {
     margin: 0;
     padding: 20px 20px 10px 20px;
   }
-  
+
   .header nav ul {
     gap: 20px;
   }
@@ -80,14 +81,14 @@ a {
   .header-logo {
     width: 145px;
     height: 46.88px;
-}
+  }
 }
 
 
 /* Small devices (phones, less than 374px) */
 @media (max-width: 374px) {
-  
+
   .header-logo {
     width: 45%
-}
+  }
 }

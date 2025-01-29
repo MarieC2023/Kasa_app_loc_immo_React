@@ -6,8 +6,8 @@ import "./header.css";
 const Header = () => {
     return (
         <header className="header">
-           
-                <img className="header-logo" src={logo} alt="Logo de l'agence Kasa" />
+
+            <img className="header-logo" src={logo} alt="Logo de l'agence Kasa" />
             <nav>
                 <ul>
                     <li><NavLink to="/home" className={({ isActive }) => isActive ? 'active' : ''}>Accueil</NavLink></li>
