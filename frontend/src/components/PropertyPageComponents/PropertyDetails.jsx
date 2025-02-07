@@ -31,16 +31,13 @@ const PropertyDetails = ({
       </div>
       <div className="details-bottom">
         <div className="details-collapse">
-          <Collapse key="Description" title="Description">
-            <p>{description}</p>
-          </Collapse>
-          <Collapse key="Équipements" title="Équipements">
-            <ul>
-              {equipments.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
-          </Collapse>
+        <Collapse title="Description">
+    {description}
+</Collapse>
+<Collapse title="Équipements">
+    {equipments}
+</Collapse>
+
         </div>
       </div>
     </>

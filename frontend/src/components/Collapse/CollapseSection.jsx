@@ -8,8 +8,8 @@ const CollapseSection = () => {
         <section className="section-collapse">
             {collapseArray.map((collapse) => (
                 <Collapse key={collapse.id} title={collapse.title}>
-                    <p>{collapse.content}</p>
-                </Collapse>
+                {collapse.content}
+            </Collapse>
             ))}
         </section>
     );
